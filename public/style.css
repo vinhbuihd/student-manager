@@ -1,0 +1,22 @@
+.error input {
+  border: solid 1px red;
+}
+
+.success input {
+  border: solid 1px green;
+}
+
+.message {
+  font-size: 14px;
+  font-style: italic;
+  color: red;
+  visibility: hidden;
+}
+
+.error .message {
+  visibility: visible;
+}
+
+.form-group {
+  margin-bottom: 4px;
+}
